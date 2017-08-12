@@ -1,0 +1,6 @@
+									Algoritmo - 5
+
+1- Receba 3 valores e atribua em "a","b" e "c".
+2- Se "a" for maior que "b" e "c", "a" é o maior.
+3- Caso Contrário se "b" for maior que "a" e "c", "b" é o maior.
+4- CAso Contrário se "c" for maior que "a" e "b", "c" é o maior.(FIM)

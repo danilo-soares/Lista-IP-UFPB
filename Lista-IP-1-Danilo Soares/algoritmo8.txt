@@ -1,0 +1,7 @@
+								Algoritmo - 8
+
+1- Receba um número e atribua em "a".
+2- Divida "a" por 365, e armazene em anos. 
+3- O resto divida por 30, e armazene em meses.
+4- E o resto em dias.(FIM) 
+  

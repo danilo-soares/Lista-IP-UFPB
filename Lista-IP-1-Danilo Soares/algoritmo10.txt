@@ -1,0 +1,6 @@
+									Algoritmo - 10
+
+1- Receba um número e atribua em "a".
+2- Divida "a" por 3600, e armazene em horas.
+3- O resto da divisão divida por 60, e armazene em minutos.
+4- E o resto em segundos.(FIM)

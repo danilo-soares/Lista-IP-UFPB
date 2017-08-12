@@ -1,0 +1,8 @@
+									Algoritmo - 14
+
+1- Receba um número e atribua em "a".
+2- Se "a" for maior que 5 e menor que 7, escreva "Infantil A".
+3- Se "a" for maior que 8 e menor que 10, escreva "Infantil B".
+4- Se "a" for maior que 11 e menor que 13, escreva "Juvenil A".
+5- Se "a" for maior que 14 e menor que 17, escreva "Juvenil B".
+6- Se "a" for maiior que 18, escreva "Adulto".(FIM)

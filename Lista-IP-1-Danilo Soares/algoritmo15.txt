@@ -1,0 +1,9 @@
+									Algoritmo - 15
+
+1- Receba uma valor e atribua em "a".
+2- Divida "a" por 100, armazene em cem, e o resto em "a".
+3- Divida "a" por 50, armazene em cinquenta, e o resto em "a".
+4- Divida "a" por 10, armazene em dez, e o resto em "a".
+5- Divida "a" por 5, armazene em cinco, e o resto em "a".
+6- Divida "a" por 1, armazene em um.(FIM)
+

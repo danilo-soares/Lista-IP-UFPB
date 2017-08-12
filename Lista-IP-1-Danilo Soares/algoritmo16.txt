@@ -1,0 +1,6 @@
+									Algoritmo - 16
+
+1- Receba dois valores e atribua em "a" e em "b".
+2- Se "a" for menor que 24:00 e maior que 12:00, subtraia por 24 e atribua a "c".
+3- Se o terceiro passo for verdadeiro some "c" e "b".
+4- Caso contrário subtraia "b" de "a".(FIM) 

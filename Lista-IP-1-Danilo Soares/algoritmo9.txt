@@ -1,0 +1,7 @@
+									Algoritmo - 9
+
+1- Receba os valores e atribua em "a","b" e "c".
+2- Multiplique "a" por 2, e armazene em res.
+3- Multiplique "b" por 3, e some a res.
+4- Multiplique "c" por 5, e some a res.
+5- Divida res por 10.(FIM)

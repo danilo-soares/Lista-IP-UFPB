@@ -1,0 +1,7 @@
+										Algoritmo - 6
+
+1- Receba um número e atribua em "a".
+2- Se "a" menor que zero, ele é negativo.
+3- Caso contrário, ele é positivo.
+4- Se "a" dividido por dois der resto zero, ele é par
+5- Caso contrário, ele é impar. (FIM)

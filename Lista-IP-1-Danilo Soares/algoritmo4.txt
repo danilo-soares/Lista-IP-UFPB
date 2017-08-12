@@ -1,0 +1,10 @@
+									Algoritmo - 4
+
+1- Receba um valor e atribua em "n".
+2- Some "n" com um, e armazene em "a".
+3- Multiplique "a" por "n", e divida o resultado por 2.(FIM)
+
+                                     N*(N+1)
+                                        2
+
+

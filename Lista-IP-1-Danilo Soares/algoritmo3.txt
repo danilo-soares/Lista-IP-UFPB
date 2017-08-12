@@ -1,0 +1,6 @@
+						 		Algoritmo - 3
+					 
+1- Receba um número e atribua em "a".
+2- Contador inicia com 1.
+3- Enquanto cont multiplicado por cont não for igual a "a", incremente um ao contador.
+4- Caso contrário atribua o valor de cont a res (FIM).

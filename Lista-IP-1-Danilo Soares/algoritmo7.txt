@@ -1,0 +1,6 @@
+									Algoritmo - 7
+
+1- Receba os valores e atribua em "a", "b" e "c".
+2- Multiplique "a" por 365, e armazene em res.
+3- Multiplique "b" por 30, e some em res.
+4- Some "c" ao res.(FIM) 

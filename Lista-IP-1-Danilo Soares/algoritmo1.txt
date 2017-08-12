@@ -1,0 +1,11 @@
+									Algoritmo - 1
+
+1- Receba dois valores e atribua em "a" e "b". 
+2- Cont se inicia com 0.
+3- Se "a" ou "b" for igual a 0 não será possível dividir.
+4- Atribua o valor de "a" para "r". 
+5- Se "b" for maior que "r", finaliza o algoritmo e resultado da divisão será "cont", e o resto "r". 
+6- Caso contrário subtraia "b" de "r" e atribua o resultado em "r". 
+7- Some um ao valor de Cont.
+8- Execute o passo (3).(FIM) 
+

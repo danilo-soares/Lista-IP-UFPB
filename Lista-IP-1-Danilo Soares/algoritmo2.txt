@@ -1,0 +1,10 @@
+								Algoritmo - 2
+
+1- Receba dois valores e atribua em "a" e "b". 
+2- Cont receberá o valor de "b".
+3- Res se inicia com 1. 
+4- Some "a" com "a",e atribua o resultado a "c" e adicione um a res.  
+5- Se Res for igual a "cont", pare o algoritmo, e o resultado é "c". 
+6- Caso contrário some "a" com "c" e adicione um a res.
+7- Execute passo (5).(FIM)
+

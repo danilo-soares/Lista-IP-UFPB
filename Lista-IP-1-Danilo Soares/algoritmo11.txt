@@ -1,0 +1,4 @@
+									Algoritmo - 11
+
+1- Receba um número e atribua a "a".
+2- Multiplique "a" por 1,73. (FIM)

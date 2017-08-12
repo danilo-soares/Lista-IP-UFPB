@@ -1,0 +1,6 @@
+										Algoritmo - 12
+
+1- Receba três valores e armazene em notas.
+2- Some as notas, depois divida por três e armazene em "a".
+3- Se "a" for maior ou igual a 6, escreva "Aprovado".
+4- Caso contrário, escreva "Reprovado". (FIM)

@@ -1,0 +1,5 @@
+								Algoritmo 13
+
+1- Receba dois valores e atribua em "a" e "b".
+2- Enquanto "a" divido por "b" tiver resto igual a zero, escreva a mensagem "São Mútiplos".
+3- Caso contrário, escreva a mensagem "Não São Múltiplos".(FIM)
