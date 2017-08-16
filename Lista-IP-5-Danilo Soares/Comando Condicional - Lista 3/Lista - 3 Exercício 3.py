@@ -36,7 +36,6 @@ elif(quantidade > 41):
     
 pgvan= valorvan / quantidade
 pgbus= valorbus / quantidade 
-     
 valorfinal= pgvan + pgbus         
 
 print("{} ônibus e {} van(s)\nR$ {:.2f} por pessoa." .format(lotbus,lotvan,valorfinal))
