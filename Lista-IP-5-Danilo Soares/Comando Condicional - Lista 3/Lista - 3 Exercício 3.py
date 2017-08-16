@@ -20,14 +20,14 @@ if(quantidade <= 41 ):
     pgvan= valorvan / quantidade
     pgbus= 0
 
-elif(quantidade > 41):
+else :
     
 
     if(quantidade <= 52):
         lotbus= quantidade // onibus
         lotvan= 1
 
-    elif(quantidade):
+    else:
         lotbus= quantidade // onibus
         lotvan=round((quantidade % onibus)/ van)
 
