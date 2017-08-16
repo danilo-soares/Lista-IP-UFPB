@@ -2,24 +2,42 @@ quantidade=(int(input("Digite a quantidade de pessoas = ")))
 
 onibus= 42
 van= 20
-
+precobus= 350
+precovan= 200
 
 if(quantidade <= 41 ):
-
+ 
     if(quantidade <= 20):
         lotvan= 1
-        lotonibus= 0
+        lotbus= 0
+
     else:
         lotvan= 2
-        lotonibus= 0
+        lotbus= 0
+
+    valorvan= lotvan * precovan
+    valorbus= 0
+    pgvan= valorvan / quantidade
+    pgbus= 0
 
 elif(quantidade > 41):
+    
+
     if(quantidade <= 52):
-        lotonibus= quantidade // onibus
+        lotbus= quantidade // onibus
         lotvan= 1
+
     elif(quantidade):
-        lotonibus= quantidade // onibus
+        lotbus= quantidade // onibus
         lotvan=round((quantidade % onibus)/ van)
-        
-print("Nessa excurssão vão {} pessoa(s), então vão ser {} ônibus e {} van(s)" .format(quantidade,lotonibus,lotvan))
+
+    valorvan= lotvan * precovan
+    valorbus= lotbus * precobus
+    
+pgvan= valorvan / quantidade
+pgbus= valorbus / quantidade 
+     
+valorfinal= pgvan + pgbus         
+
+print("{} ônibus e {} van(s)\nR$ {:.2f} por pessoa." .format(lotbus,lotvan,valorfinal))
 

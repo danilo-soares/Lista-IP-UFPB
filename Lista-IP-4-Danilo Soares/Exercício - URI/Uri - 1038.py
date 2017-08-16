@@ -1,4 +1,4 @@
-pedido,quantidade = map(int,input("Digite seu pedido e a quantidade = ").split())
+pedido,quantidade = map(int, input("Digite seu pedido e a quantidade = ").split())
 
 if (pedido==1):
     res= (quantidade*4.00)
