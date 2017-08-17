@@ -6,8 +6,6 @@ c= float(input("Digite o valor de c = "))
 x=(b**2)-(4*a*c)
  
 if a == 0 :
-        ##x=math.sqrt(x)
-        ##x=(-b+x)/(2*a)
         print ("Impossível calculado")
 
 elif( x < 0):

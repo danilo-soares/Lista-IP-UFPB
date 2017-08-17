@@ -22,14 +22,17 @@ if(quantidade <= 41 ):
 
 else :
     
+    if(quantidade == 42):
+        lotbus= 1
+        lotvan= 0
 
-    if(quantidade <= 52):
+    elif(quantidade <= 52):
         lotbus= quantidade // onibus
         lotvan= 1
-
+        
     else:
         lotbus= quantidade // onibus
-        lotvan=round((quantidade % onibus)/ van)
+        lotvan= round(((quantidade % onibus)/van))
 
     valorvan= lotvan * precovan
     valorbus= lotbus * precobus
