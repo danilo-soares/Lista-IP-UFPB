@@ -2,8 +2,9 @@
 #imposto total a ser pago. Quem ganha até 12000 fica isento, quem ganha mais de
 #60000 paga 7% desse valor, e os demais pagam 3% do valor total.
 
-#  No Programa original ele utilizou dois if, quando no lugar do segundo
-# usaria o elif para evitar processamentos desnecessários.
+
+# O código tem um erro por que ele colocou dois if e um else, com isso ele testa o
+#o primeiro if e nosegundo ela testa e entra no else sobrepondo o primeiro if
 
 rendaAnual=float(input("Digite sua Renda Anual = "))
 

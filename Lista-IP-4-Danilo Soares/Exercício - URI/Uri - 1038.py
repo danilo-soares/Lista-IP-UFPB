@@ -16,4 +16,4 @@ elif(pedido==5):
     res= (quantidade*1.50)
 
 print("Total: R$ {:.2f}" .format(res))
-print("FIM")
+
