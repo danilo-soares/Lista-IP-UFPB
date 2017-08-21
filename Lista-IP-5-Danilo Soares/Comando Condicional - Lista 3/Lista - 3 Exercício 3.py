@@ -19,6 +19,6 @@ if numpessoas > 0:
 
 print("{} onibus e {} vans" .format(nbus,nvans))
 
-valortotal =(int)((nbus*precobus) + (nvans*precovan))/totalpessoas
+valortotal =((nbus*precobus) + (nvans*precovan))/totalpessoas
 
-print("R$ {:.2f} por pessoa" .format(valortotal))
+print("R$ {} por pessoa" .format(valortotal))
