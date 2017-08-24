@@ -6,6 +6,6 @@ cont=0
 
 while(cont != numerob):
      cont += 1
-     res= res+ numeroa
+     res += numeroa
 
 print(res)

@@ -1,8 +1,8 @@
-n = int(input("Tabuada de :"))
+n = int(input("Tabuada do = "))
 x = 1
 
 while x <= 10:
 
      res= n*x
-     print("{} * {} = {}" .format(n,x,res))
+     print("{} x {} = {}" .format(n,x,res))
      x += 1

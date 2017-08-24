@@ -8,6 +8,8 @@ while numero != 100:
         cont += 1
         res += numero
         valor= res//cont
+    else:
+        valor=("Não recebidos números válidos")
     numero=int(input())
 
 print(valor)

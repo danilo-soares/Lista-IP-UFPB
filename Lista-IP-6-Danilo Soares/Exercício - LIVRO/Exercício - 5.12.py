@@ -9,8 +9,10 @@ x=0
 
 while x <= 23:
 
-    res= (deposito * jurosfinal) + deposito
-    depositomensal += res
+    res= (deposito * jurosfinal)
+    taxa= res + deposito
+    taxa += depositomensal
+    deposito= taxa
     x +=1
-    print ("{} mês(es) = " .format(x),end="")
-    print ("{:.2f}".format(depositomensal))
+    print ("{} mês(es) = {:.2f}" .format(x,deposito))
+

@@ -1,6 +1,7 @@
 divida= float(input("Digite o valor da dívida = "))
 juros= float(input("Digite a quantidade de juros = "))
 pgmensal= float(input("Digite o valor a pagar este mês = "))
+
 saldo=divida
 mes= 0
 jurospg=0
@@ -32,5 +33,5 @@ if mes > 12:
 
 else:
     print ("Seu saldo é de R$ {:.2f}" .format(saldo))
-    print ("Foram necessários {} mese(s),foram pagos R$ {:.2f}, acréscimo de R$ {:.2f}" .format(mes,pgtotal,jurospg))
+    print ("Foram necessários {} meses,foram pagos R$ {:.2f}, acréscimo de R$ {:.2f}" .format(mes,pgtotal,jurospg))
 
