@@ -8,7 +8,7 @@ while numero != 100:
         cont += 1
         res += numero
         valor= res//cont
-    else:
+    elif numero > 0 and numero % 3 == 0:
         valor=("Não recebidos números válidos")
     numero=int(input())
 
