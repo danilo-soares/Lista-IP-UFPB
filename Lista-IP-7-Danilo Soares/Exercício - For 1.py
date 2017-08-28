@@ -12,7 +12,7 @@ for i in range(quantidade):
     if ano < 1827:
         cont += 1
 
-    if maior > valor:
+    if valor > maior:
 
         maior = valor
         anob= ano

@@ -1,25 +1,32 @@
 quantidade=int(input("Digite a quantidade lavagens = "))
-tipocobra=str.lower(input("Digite o tipo de cobrança = "))
 res=0
 cont=0
+total=0
 
 for i in range(quantidade):
 
+    tipocobra=str.lower(input("Digite o tipo de cobrança = "))
+     
     if tipocobra == "peça":
         quantidade=int(input("Digite a quantidade de peças = "))
+        lavagem= str.lower(input("Lavagem a seco [S/N] ? "))
         cont = quantidade * 7 
+
+        if lavagem == "s":    
+            res = 1
+            cont += 3.5
+        print("Valor do pedido -> R$ {:.2f} " .format(cont))
 
     elif tipocobra == "peso":
         quilos= int(input("Digite a quantidade de quilos = "))
+        lavagem= str.lower(input("Lavagem a seco [S/N] ? "))
         cont= quilos * 5
 
-    lavagem= str.lower(input("Lavagem a seco [S/N] ? "))
-    tipocobra=str.lower(input("Digite o tipo de cobrança = "))
+        if lavagem == "s":    
+            res = 1
+            cont += 3.5
+        print("Valor do pedido -> R$ {:.2f} " .format(cont))
+    total+=cont
 
-    if lavagem == "s":
-        res = 1
-        cont += 3.5
-    
-print("Valor do pedido -> R$ {} " .format(cont))
-print("Total arrecadado -> R$ {} " .format(cont))
+print("Total arrecadado -> R$ {} " .format(total))
 print("Quantidade de lavagens a seco -> {} " .format(res))
