@@ -17,6 +17,8 @@ for i in range(quantidade) :
             marfim += 1
         elif cor == "branco":
             branco += 1
+        else:
+            print("Cor inválida")
         
     elif tipo == "eletrodoméstico" or tipo == "eletrodomestico":
         marca=str.lower(input("Marca -> "))
@@ -24,8 +26,10 @@ for i in range(quantidade) :
 
         if marca == "electrolux":
             marcaa += 1
-        else:
+        elif marca == "brastemp":
             marcab +=1
+        else:
+            print("Marca Inválida")
 
     elif tipo == "decoração" or tipo == "decoraçao":
         deco += 1
@@ -37,20 +41,21 @@ if marfim > 0 and marfim == branco:
     total= marfim + branco
     percentual= 100 // total
     percentualb= percentual
-
+    print("Percentuais -> {:.0f}% marfim, {:.0f}% branco." .format(percentual,percentualb))
 elif marfim == 0 and branco != 0:
     percentual= 0
     percentualb= 100//branco
-
+    print("Percentuais -> {:.0f}% marfim, {:.0f}% branco." .format(percentual,percentualb))
 elif marfim != 0 and branco == 0:
     percentual= 100 // marfim
     percentualb=0
+    print("Percentuais -> {:.0f}% marfim, {:.0f}% branco." .format(percentual,percentualb))
 
 elif marfim != branco:
     percentual= 100 // marfim
     percentualb= 100 // branco
+    print("Percentuais -> {:.0f}% marfim, {:.0f}% branco." .format(percentual,percentualb))
 
-print("Percentuais -> {:.0f}% marfim, {:.0f}% branco." .format(percentual,percentualb))
 
 if movel == 0:
     print("Nenhum móvel vendido")

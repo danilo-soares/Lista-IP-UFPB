@@ -28,5 +28,5 @@ for i in range(quantidade):
         print("Valor do pedido -> R$ {:.2f} " .format(cont))
     total+=cont
 
-print("Total arrecadado -> R$ {} " .format(total))
+print("Total arrecadado -> R$ {:.2f} " .format(total))
 print("Quantidade de lavagens a seco -> {} " .format(res))
